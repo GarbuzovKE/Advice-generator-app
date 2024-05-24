@@ -1,0 +1,36 @@
+.adviceContainer {
+  background-color: var(--main-bg);
+  padding: 2rem;
+  padding-bottom: 0px;
+  border-radius: 0.5rem;
+  h1 {
+    font-size: 28px;
+    padding: 2rem 0;
+    // text-wrap: wrap;
+  }
+  h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  button {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--green);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(50%);
+  }
+  .adviceID {
+    color: var(--green);
+  }
+}
+
+.dividerWrapper {
+  margin-bottom: 1rem;
+  img {
+    width: 100%;
+    height: clamp(14px, 3vw, 20px);
+  }
+}
